@@ -1,0 +1,38 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Vollkorn', serif;
+}
+
+.quote-border {
+    border: solid 3px blue;
+    margin-bottom: 50px;
+}
+
+.quote-value {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    color: blue;
+    padding: 40px;
+}
+
+.quote-button {
+    width: 336px;
+    height: 40px;
+    border: solid 3px blue;
+    background-color: white;
+    color: blue;
+    font-family: 'Vollkorn', serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.quote-button:hover {
+    background-color: blue;
+    color: white;
+}
